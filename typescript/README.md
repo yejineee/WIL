@@ -1,2 +1,2 @@
-# 💙 Typescript
+# Typescript
 

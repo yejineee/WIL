@@ -4,7 +4,7 @@
 
 * 선언되지 않았을 경우
 
-```text
+```
 console.log(typeof v) // undefined
 ```
 
@@ -18,8 +18,8 @@ console.log(typeof a); //undefined
 
 ## null
 
-* 어떠한 참조값도 존재하지 않음을 의미한다. 
-* 객체 참조의 연결을 해지하는 것을 말한다. 
+* 어떠한 참조값도 존재하지 않음을 의미한다.
+* 객체 참조의 연결을 해지하는 것을 말한다.
 
 ```javascript
 let b = null;
@@ -31,7 +31,7 @@ console.log(typeof b); // Object
 
 선언되지 않은 변수는 undefined이나, 선언되지 않은 변수를 사용하는 것은 문법 오류이다.
 
-```text
+```
 console.log(null == undefined); // true
 console.log(null === undefined); // false
 console.log(qwer == undefined); // ReferenceError: qwer is not defined
@@ -39,7 +39,7 @@ console.log(qwer == undefined); // ReferenceError: qwer is not defined
 
 ## undeclared 변수
 
-* 전역 스코프 
+* 전역 스코프
 
 undeclared 변수란 선언하지 않은 변수로, 어떠한 키워드도 지정하지 않은 변수이다. 키워드를 지정하여 변수를 선언하는 것은, _그 변수의 유효범위를 지정하는 것_ 이다. undeclared 변수는 유효범위를 지정하지 않았으므로, 어떤 scope에서 선언을 했던지간에, **전역 객체의 프로퍼티**가 된다.
 
@@ -57,7 +57,7 @@ console.log(varKeyword); // ReferenceError: varKeyword is not defined
 
 선언하지 않은 변수는 전역 변수이므로, 전역 스코프에서 선언되지 않은 변수를 참조할 수 있다.
 
-```text
+```
 function fn() {
   undeclared = "선언되지 않은 변수";
 }
@@ -66,12 +66,12 @@ fn();
 console.log(undeclared); // 선언되지 않은 변수
 ```
 
-* undeclared 변수는 할당문을 만나기 전에 참조하려고 하면, 오류가 발생한다.
+*   undeclared 변수는 할당문을 만나기 전에 참조하려고 하면, 오류가 발생한다.
 
-  ```text
-  console.log(undc); // ReferenceError: undc is not defined
-  undc = "선언되지 않은 변수";
-  ```
+    ```
+    console.log(undc); // ReferenceError: undc is not defined
+    undc = "선언되지 않은 변수";
+    ```
 
 ## 정리
 
@@ -92,5 +92,5 @@ console.log(value); // null
 
 * [What is the difference between null and undefined in JavaScript? - stackoverflow](https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript)
 * [front-end 개발자 인터뷰 문제 - javascript 영역](http://insanehong.kr/post/front-end-developer-interview-javascript/)
-* [Effect of declared and undeclared variables Ask Question](https://stackoverflow.com/questions/15985875/effect-of-declared-and-undeclared-variables)
+* [https://stackoverflow.com/questions/15985875/effect-of-declared-and-undeclared-variables](https://stackoverflow.com/questions/15985875/effect-of-declared-and-undeclared-variables)
 

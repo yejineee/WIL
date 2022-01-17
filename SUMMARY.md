@@ -21,7 +21,7 @@
   * [실행 컨텍스트의 생성 과정](javascript/step-of-execution-context.md)
   * [함수 호출 방식과 this 바인딩](javascript/this.md)
   * [실행 컨텍스트의 세 가지 객체 (VO, SC, this)](javascript/three-object-of-execution-context.md)
-  * [undefined-vs-nul-vs-undeclared 변수](javascript/undefined-vs-nul-vs-undeclared.md)
+  * [undefined vs null vs undeclared 변수](javascript/undefined-vs-null-vs-undeclared.md)
   * [var, let, const와 호이스팅](javascript/var-let-const-hoisting.md)
   * [you-don't-know-js](javascript/you-dont-know-js/README.md)
     * [Part 2 - 1장. 비동기성 : 지금과 나중](javascript/you-dont-know-js/part2-1..md)
