@@ -1,4 +1,4 @@
-# undefined-vs-nul-vs-undeclared 변수
+# undefined vs null vs undeclared 변수
 
 ## undefined
 
@@ -92,7 +92,5 @@ console.log(value); // null
 
 * [What is the difference between null and undefined in JavaScript? - stackoverflow](https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript)
 * [front-end 개발자 인터뷰 문제 - javascript 영역](http://insanehong.kr/post/front-end-developer-interview-javascript/)
-* \[Effect of declared and undeclared variables
-
-  Ask Question\]\([https://stackoverflow.com/questions/15985875/effect-of-declared-and-undeclared-variables](https://stackoverflow.com/questions/15985875/effect-of-declared-and-undeclared-variables)\)
+* [Effect of declared and undeclared variables Ask Question](https://stackoverflow.com/questions/15985875/effect-of-declared-and-undeclared-variables)
 
