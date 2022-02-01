@@ -28,6 +28,7 @@
 * [React](react/README.md)
   * [리액트 컴포넌트, 엘리먼트, 인스턴스](react/react-conponent-element-instance.md)
   * [리액트 생명주기](react/react-lifecycle.md)
+  * [state 처리 setState와 state hook](react/state-setstate-state-hook.md)
 * [Typescript](typescript/README.md)
   * [1. The Basics](typescript/1.the-basics.md)
   * [tsconfig.json에서 module이 뭘까](typescript/tsconfig.json-module.md)
