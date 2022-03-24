@@ -48,9 +48,9 @@ sayHi();
 
 #### `전역객체`는 모든 객체의 유일한 최상위 객체이다
 
-브라우저 환경에서는 window, node에서는 global이 전역체이다.
+브라우저 환경에서는 window, node에서는 global이 전역객체이다.
 
-var로 선언한 변수를 전역 스코프에 선언하면,**전역객의 프로퍼티**가 된다.
+var로 선언한 변수를 전역 스코프에 선언하면,**전역객체의 프로퍼티**가 된다.
 
 ```javascript
 var declared = 1;  // Explicit global variable (new variable)
@@ -65,7 +65,7 @@ window.hasOwnProperty('declared')    // true
 * 자바스크립트는 **함수 레벨 스코프**를 따른다.
 * ES6에서 제공하는 `let`은 **블록 레벨 스코프**를 따른다.
 
-#### 수 중복 선언 금지
+#### 변수 중복 선언 금지
 
 let으로는 동일한 이름을 갖는 변수를 선언하면 SyntaxError가 발생하게 된다.
 
